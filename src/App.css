@@ -1,0 +1,370 @@
+.nav-links {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    list-style: none;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: end;
+}
+
+.show-navs {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.defaulthero,
+.roomshero {
+    min-height: calc(100vh - 66px);
+    background: url("./images/defaultBcg.jpeg") center/ cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roomshero {
+    background-image: url("./images/room-2.jpeg");
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.btnn-primary {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 0.4rem 0.9rem;
+    border: 3px solid black;
+    text-transform: uppercase;
+    background-color: #af9a7d;
+    transition: all 0.2s ease-in;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnn-primary:hover {
+    background-color: transparent;
+    color: #af9a7d;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title h4 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.services-center {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.service p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service {
+    margin-top: 50px;
+}
+
+.services {
+    text-align: center;
+    background-color: #cfcfcf;
+}
+
+.service span {
+    color: #af9a7d;
+    font-size: 2.5rem;
+    display: inline-block;
+}
+
+.service h6 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.row-center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 0px 20px 10px 0px;
+    left: 20px;
+}
+
+.slug {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    position: relative;
+}
+
+.single-img {
+    width: 200px;
+    height: 200px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    align-items: stretch;
+}
+
+.img {
+    background-color: black;
+    margin-left: 20px;
+    flex-grow: 1;
+    width: 150px;
+}
+
+.span {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.main-img {
+    width: 400px;
+    height: auto;
+}
+
+.single-room-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+}
+
+.des {
+    width: auto;
+    height: 300px;
+    overflow: auto;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.featured-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.image-room {
+    width: auto;
+    height: 200px;
+    margin-left: 20px;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.con {
+    width: 100px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.con>p {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.controls-container {
+    min-height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.rooms-filter-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    min-height: 400px;
+}
+
+.img-filter {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.pricee {
+    background-color: black;
+    color: #fff;
+    width: 50px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.room-co {
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
+ 
+}
+
+.error {
+    display: block;
+    background-color: #af9a7d;
+    margin: 0 auto;
+}
+
+.room-co::after {
+    position: absolute;
+    content: "";
+    width: 350px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+ margin-left: -350px;
+    transition: all 0.2s ease-in;
+    z-index: 1;
+    border-radius: 10px;
+}
+.room-co:hover::after {
+    width: 350px;
+        height: 350px;}
+
+
+
+
+
+.room-co:hover .te {
+    display: block;
+}
+
+.te {
+     margin-top: 160px;
+ 
+    margin-left: 80px; 
+    position: absolute;
+
+    display: none;
+    z-index: 2;
+    transition: all 0.2 ease-in;
+}
+.searchbox{
+    width: 200px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    border-radius: 5px;
+
+}
+.search-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+
+
+
+    
+ 
+   
+}
+.search-container input{
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+border-radius: 5px;
+border-bottom: 1px solid black;
+background-color:rgba(0, 0, 0, 0.5);
+width: 200px;
+
+}
+.p_room{
+        color: #fff;
+        text-align: center;
+        
+
+}
+.link{
+    text-decoration: none;
+}
+.p_room:hover{
+    color: #af9a7d;
+}
+.search-container input::placeholder{
+    color: #fff;
+}
